@@ -12,10 +12,10 @@ spec:
   tls:
   - hosts:
     - bankapi.toyintechhub.online  # bankend url
-    - bank.toyintechhub.online     # frontend url
+    - app.toyintechhub.online     # frontend url
     secretName: bank-toyintechhub-online
   rules:
-  - host: bank.toyintechhub.online
+  - host: app.toyintechhub.online
     http:
       paths:
       - path: /
