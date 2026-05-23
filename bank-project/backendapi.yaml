@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: bank-backend-container
-        image: 379220350329.dkr.ecr.us-east-1.amazonaws.com/bank-backendapi:11
+        image: 379220350329.dkr.ecr.us-east-1.amazonaws.com/bank-backendapi:12
         ports:
         - containerPort: 8080
         env:
